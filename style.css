@@ -99,6 +99,12 @@ h1 {
     padding: 1.5em;
 }
 
+.text-box h1 {
+    font-weight: 900;
+    font-size: 40px;
+    padding: 20px 0;
+}
+
 .hero-btn {
     display: inline-block;
     text-decoration: none;
