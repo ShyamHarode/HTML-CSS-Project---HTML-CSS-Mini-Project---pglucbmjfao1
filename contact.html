@@ -14,11 +14,11 @@
 
 <body>
 
-
     <!-- Home page -->
+
     <section class="sub-header">
         <nav>
-            <a href="index.html"><i class="fa-solid fa-graduation-cap"></i>SHREE.UNIVERSITY</a>
+            <a href="index.html"><i class="fa-solid fa-graduation-cap"></i>SHREE UNIVERSITY</a>
             <div class="nav-links">
                 <button onclick="showMenu()" class="showMenu" id="showMenu"><i class="fa fa-bars"></i> </button>
                 <ul id="navLinks" class="nlink">
@@ -32,14 +32,16 @@
             </div>
         </nav>
         <h1>Contact Us</h1>
-
     </section>
+
 
     <section class="location">
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29323.738776608774!2d77.41689500869809!3d23.26246241572102!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x397c69d65a5c8917%3A0x20cd8bddcfa37aa5!2sShree%20Nursing%20Coaching%20classes!5e0!3m2!1sen!2sin!4v1657119506355!5m2!1sen!2sin"
             width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 
     </section>
+
+    <!-- Contact us -->
 
     <section class="contact-us">
         <div class="row">
@@ -67,7 +69,7 @@
                 </div>
             </div>
             <div class="contact-col">
-                <form name="contact-form" action="form-handler.php" method="post" id="myForm">
+                <form name="contact-form" method="post" id="myForm">
                     <input type="text" name="name" placeholder="Enter your name" required="">
                     <input type="email" name="email" placeholder="Enter email address" required="">
                     <input type="text" name="subject" placeholder="Enter your subject" required="">
@@ -77,7 +79,9 @@
             </div>
         </div>
     </section>
+
     <!-- Footer -->
+
     <section class="footer" id="about">
         <h4>About Us</h4>
         <p>We’re a leading research university with a heart. Founded in the decade that the U.S. Constitution was signed, we’re the nation’s oldest Catholic and Jesuit university.
@@ -88,9 +92,12 @@
             <a href="https://www.instagram.com/shyam_harode/"> <i class="fa fa-instagram"></i></a>
             <a href="https://www.linkedin.com/in/shyamharode/"><i class="fa-brands fa-linkedin-in"></i></a>
         </div>
-        <p>Made with <i class="fa fa-heart-o"> by Shyam Harode</i></p>
+        <p>Made by Shyam Harode</i>
+        </p>
     </section>
-    <!--JavaScript for toggle menu  -->
+
+    <!--JavaScript -->
+
     <script>
         var navLi = document.getElementById("navLinks");
 
@@ -98,7 +105,6 @@
             navLi.style.display = "block";
             document.getElementById("showMenu").style.display = "none";
             document.getElementById("hideMenu").style.display = "block";
-
         }
 
         function hideMenu() {
@@ -118,6 +124,7 @@
             return false; // Prevent page refresh
         }
     </script>
+
 </body>
 
 </html>
